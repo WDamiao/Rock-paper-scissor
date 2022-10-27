@@ -1,0 +1,103 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 854px;
+    background-image: url("./assets/dia-07-super-trunfo-bg.webp");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#subtitulo {
+    display: none;
+}
+
+#resultado {
+    background-color: white;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.page-logo {
+    width: 30%;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+h2 {
+    color: white;
+}
+
+#opcoes {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.radio {
+    display: none;
+}
+
+.cartaSorteada {
+    width: 90px;
+    opacity: 0.4;
+}
+
+.maquina {
+    opacity: 1;
+}
+
+#again {
+    display: none;
+}
+
+.active {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+#resultado {
+    padding: 0.5rem;
+    display: none;
+}
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #opcoes {
+        display: flex;
+        gap: 2rem;
+    }
+
+    #resultado {
+        width: 90%;
+        font-size: 1rem;
+    }
+}
